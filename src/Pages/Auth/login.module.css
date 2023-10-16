@@ -1,0 +1,69 @@
+.loginWrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginFields {
+    border: none;
+    box-shadow: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.loginFields:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.loginHeading {
+    font-size: 55px!important;
+    font-weight: 600;
+    color: var(--font-heading);
+}
+
+.loginCol2 {
+    position: relative;
+}
+
+.file {
+position: fixed;
+top: 0;
+right: 0;
+}
+
+
+.forgotPass {
+    color: var(--font-heading);
+}
+
+/* Corrected CSS code */
+
+.checkBox input[type="checkbox"] {
+    color: red !important;
+    background-color: transparent !important;
+    border-color: grey !important;
+  }
+
+.checkBox input[type="checkbox"]:checked {
+    background-color: var(--font-heading) !important;
+  }
+
+  
+  .checkBox input[type="checkbox"]:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  
+  .checkBox input[type="checkbox"]:active {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  
+  @media screen and (max-width: 1480px) {
+    .hide {
+        display: none !important;
+    }
+  }

@@ -1,0 +1,208 @@
+.modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.backbutton {
+    color: #fff;
+}
+
+/* .modal_content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 24px;
+    max-width: 500px;
+    width: 100%;
+  } */
+
+.fields {
+    border-radius: 9px;
+    border: 1.5px solid #BEBEBE !important;
+}
+
+.fields:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.fields:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.imgUploadWrapper {
+    border-radius: 9px;
+    border: 2px dashed var(--5351-fb, var(--btn-color));
+    padding: 20px;
+    text-align: center;
+}
+
+.formContainer {
+    border-radius: 20px;
+    box-shadow: 5px 5px 35px -15px;
+}
+
+/* .formWrapper {
+    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    height: 70vh !important;
+    overflow-y: scroll !important;
+} */
+
+
+@media only screen and (max-width: 280px) {
+    .mainheadred {
+        background-color: #9d130c;
+        min-height: 120px;
+    }
+
+    .formContainer {
+        background-color: white;
+        width: 20rem !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: -70px; */
+        flex-direction: column;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 281px) {
+
+   
+
+    .formContainer {
+        background-color: white;
+        width: 25rem !important;
+        /* min-height: 85vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: -70px; */
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 361px) {
+ 
+   
+
+    .formContainer {
+        background-color: white;
+        width: 27rem !important;
+        /* min-height: 85vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: -70px; */
+        flex-direction: column;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .mainheadred {
+        background-color: #9d130c;
+        min-height: 120px;
+    }
+
+    .formContainer {
+        background-color: white;
+        width: 45rem !important;
+        /* min-height: 85vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: -70px; */
+        flex-direction: column;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .formContainer {
+        background-color: white;
+        width: 60rem !important;
+        min-height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: -70px; */
+        flex-direction: column;
+    }
+
+    .formWrapper {
+        width: 100%;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        height: 70vh !important;
+        overflow-y: scroll !important;
+    }
+
+    .mainheadred {
+        background-color: #9d130c;
+        min-height: 150px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .formContainer {
+        background-color: white;
+        width: 45rem !important;
+        min-height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: -70px; */
+        flex-direction: column;
+    }
+
+    .formWrapper {
+        width: 100%;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        height: 85vh !important;
+        overflow-y: scroll !important;
+    }
+
+    .mainheadred {
+        background-color: #9d130c;
+        min-height: 150px;
+    }
+ 
+}
+
+@media only screen and (max-width: 992px) {
+    .formWrapper {
+        width: 100%;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        height: 70vh !important;
+        overflow-y: scroll !important;
+    }
+}
+
+.formWrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  

@@ -1,0 +1,27 @@
+
+:root {
+  --font-heading: hsla(216, 94%, 46%, 0.925);
+  --btn-color: #5351FB;
+}
+
+button {
+  background-color: var(--btn-color);
+  color: white;
+  border-radius: 6px !important;
+  border: none;
+  padding: 10px;
+}
+
+.loginBtn {
+  width: 100% !important;
+}
+
+
+.slick-prev:before, .slick-next:before {
+  font-size: 25px !important;
+  line-height: 1;
+  opacity: .75;
+  color: var(--btn-color) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
